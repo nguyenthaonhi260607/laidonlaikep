@@ -1,7 +1,17 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Ứng dụng tính tiền gửi tiết kiệm",
+    page_icon="avatar.jpg"
+)
 # Tiêu đề ứng dụng
-st.title("💰 Ứng dụng tính tiền gửi tiết kiệm_Nguyễn Thảo Nhi")
+col1, col2 = st.columns([1, 6])
+
+with col1:
+    st.image("avatar.jpg", width=70)
+
+with col2:
+    st.title("Ứng dụng tính tiền gửi tiết kiệm_Thảo Nhi")
 
 # Nhập dữ liệu
 C = st.number_input(
