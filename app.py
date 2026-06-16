@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Ứng dụng tính tiền gửi tiết kiệm",
-    page_icon="avatar.jpg"
+    page_icon="THAONHI.JPG"
 )
 # Tiêu đề ứng dụng
 col1, col2 = st.columns([1, 6])
