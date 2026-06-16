@@ -8,7 +8,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 6])
 
 with col1:
-    st.image("avatar.jpg", width=70)
+    st.image("AVATAR.JPG", width=432)
 
 with col2:
     st.title("Ứng dụng tính tiền gửi tiết kiệm_Thảo Nhi")
